@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Creative - Start Bootstrap Theme</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap Icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
+        <!-- SimpleLightbox plugin CSS-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link href="css/styles.css" rel="stylesheet" />
+        <style>
+            :root {
+				--main-bg-color: hwb(14 42% 4%);
+			}
+			.btn {
+				color:#fff;
+				background:var(--main-bg-color);
+			}
+
+      h1 {
+          font-family: 'Crimson Pro', serif;
+          font-size: 48px;
+      }
+      .h2 {
+          font-family: 'Crimson Pro', serif;
+          font-size: 10px;
+      }
+  
+      .tipo1 {
+          font-family: Georgia, serif !important;
+          font-size: 30px !important;
+      }
+        .f-link  {
+            font-size: 100px;
+            color: red;
+        }
+
+        .top-Link li {
+                display: inline-block;
+                margin-right:15px;
+				font-size: 12px;
+				color: rgb(34, 34, 34);
+        }
+        
+            .footer {
+                color: white;
+            }
+            
+			.nav-menu {
+				background-color: white;
+				}
+			.nav-content {
+			display: flex;
+			justify-content: space-between;
+			padding: 10px 30px;
+			align-items: center;
+			}
+			.nav-items {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				list-style: none;
+				margin: 0;
+				padding: 0;
+				li {
+					padding: 0 10px;
+				}
+			}
+			i {
+			display: none;
+			}
+			
+				@media screen and (max-width: 768px) {
+				.nav-menu {
+					padding-top: 10px;
+					position: absolute;
+					width: 100%;
+				}
+				.open-menu {
+					opacity: 1;
+					height: 150px;
+				}
+				.closed-menu {
+					opacity: 0;
+					height: 0;
+					padding: 0;
+				}
+				.nav-content {
+					flex-direction: column;
+					z-index: 100;
+					position: relative;
+					transition: all 0.2s ease-out;
+				}
+				.nav-items {
+					flex-direction: column;
+				}
+				i {
+					display: block;
+					text-align: right;
+					padding: 0 10px 10px 0;
+					}
+			}
+             .navbar {
+                
+                background-color: rgb(240, 18, 18); /* Cor de fundo com opacidade */
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 15px;
+                }
+
+             .social-icon {
+      margin: 0 10px;
+      color: #495057;
+      font-size: 20px;
+    }
+    .nav .midias {
+  display: inline;
+  font-size: 20px;
+  padding: 20px;
+}
+.social-icons {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
+    .social-icons a {
+      margin-left: 10px;
+    }
+
+    .nav-item .nav-link {
+        font-family: "Montserrat", Helvetica, Arial, sans-serif;
+        line-height: 14px;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+
+    .page-section2 {
+        padding: 50px 0px 50px 0px;
+    }
+
+    #mainNav .navbar-nav .nav-item .nav-link {
+    color:white;
+    font-size: 16px;
+    padding: 0 1rem;
+}
+.blog .single-news img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.footer {
+    padding-top: 30px;
+  background-color: var(--main-bg-color);
+
+}
+
+#footer h2 {
+    padding-bottom: 10px;
+}
+
+/* .footer .footer-top:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    opacity: 0.1;
+} */
+
+#eventos img {
+    width: 100%; /* You can set the dimensions to whatever you want */
+    height: 500px;
+    object-fit: cover;
+}
+
+h3, h2, p {
+    font-family: Montserrat;
+}
+
+h3 {
+    font-size: 40px;
+}
+/* 
+.footer .single-footer h2::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0px;
+    height: 3px;
+    width: 50px;
+    background: #fff;
+} */
+
+/* .footer .single-footer .newsletter-inner input {
+    background: transparent;
+    border: 1px solid #fff;
+    height: 50px;
+    line-height: 42px;
+    width: 100%;
+    margin-right: 15px;
+    color: #fff;
+    padding-left: 18px;
+    padding-right: 70px;
+    display: inline-block;
+    float: left;
+    border-radius: 0px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    font-weight: 400;
+    border-radius: 5px;
+} */
+
+
+            #mainNav {
+                /* box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3); */
+                background-color: rgba(231, 83, 38, 0.3);
+                transition: background-color 0.2s ease;
+            }
+        </style>
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+       
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3"  id="mainNav">
+            <div class="tt container px-4 px-lg-5">
+                <div class="row">
+                    <div class="col">
+                        <a class="navbar-brand" href=""><img src="assets/img/logo2.png" style="width: 200px;"></a>
+                    </div>
+                    <div class="col">
+
+                        <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                        <div class="collapse navbar-collapse" id="navbarResponsive">
+                            <ul class="navbar-nav ms-auto _my-2 my-lg-0 mx-5 pt-4 ml-4" >
+                                <li class="nav-item"><a class="nav-link" href="" >Home</a></li>
+                                <li class="nav-item"><a class="nav-link" href="" >Sobre</a></li>
+                                <li class="nav-item"><a class="nav-link" href="" >Atrativos</a></li>
+                                <li class="nav-item"><a class="nav-link" href="" >Eventos</a></li>
+                                <!-- <li class="nav-item"><a class="nav-link" href="#contact" >Comunidade</a></li> -->
+                                <li class="nav-item"><a class="nav-link" href="" >Contato</a></li>
+                                <!-- <div class="social-icons" style="margin-top: -4px;">
+                                    <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                                    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                                    <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                  </div> -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead" style="background-image: url('assets/img/slide3.jpg');">
+            <div class="container px-4 px-lg-5 h-100" style="padding-top: 400px;">
+                <div class="row gx-4 gx-lg-5 _h-100 align-items-center justify-content-center text-center">
+                    <div class="col-lg-8 align-self-baseline">
+                        <p class="text-white-75 _mb-5">Bem vindo</p>
+                        <!-- <a class="btn btn-primary btn-xl" href="#about">Saiba mais</a> -->
+                    </div>
+                    <div class="col-lg-8 align-self-end">
+                        <h1 class="text-white font-weight-bold" style="font-family: Lora, serif; font-weight: 600;">Templo de Sri Sri Radha Gokulananda</h1>
+                       
+                    </div>
+                    
+
+                </div>
+            </div>
+        </header>
+        <section class="page-section2 bg-primary"  id="about">
+            <div class="container">
+                <div class="row">
+                <div class="col-lg-6 col-sm-12">
+                    <div class="container">
+                            <h2 class="text-white mt-0">Nova Gokula</h2>
+                            <!-- <hr class="divider divider-light" /> -->
+                            <p class="text-white-75 mb-4">
+                                A Fazenda Nova Gokula é um santuário natural que oferece aos seus visitantes uma variedade de experiências baseadas no princípio de uma vida simples, natural e saudável e também uma área de preservação ambiental com riquíssima biodiversidade. A comunidade foi criada em 1978 com o intuito de desenvolver a prática de vida simples e pensamento elevado.
+                                </p>  <a class="btn btn-light btn-xl" href="#services">Saiba mais</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-sm-12">
+                    <div class="container">
+                            <h2 class="text-white mt-0"></h2>
+                                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/Ir6E7wEcJfE?si=PV-68z2bSndZXJna" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                            <!-- <hr class="divider divider-light" /> -->
+                            <p class="text-white-75 mb-4"></p>
+                            <!-- <a class="btn btn-light btn-xl" href="#services">Get Started!</a> -->
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <!-- Prabhupada-->
+        <section class="page-section2 bg-primary_"  id="about" style="margin-top: -70px;">
+            <div class="_container">
+                <img src="assets/img/1.png" class="img-fluid">
+            </div>
+        </section>
+
+      
+		<section class="blog section" id="opiniões" style="margin-top: -70px; padding-top: 50px; padding-bottom: 50px; background-color: rgb(238, 217, 159);">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+							<div class="row d-flex justify-content-center">
+								<div class="col-md-10 col-xl-8 text-center">
+								<h3 class="mb-4">Opiniões de nossos visitantes</h3>
+								<p class="mb-4 pb-2 mb-md-5 pb-md-0">
+									Veja o que estão dizendo da gente na web
+								</p>
+								</div>
+							</div>
+
+							<div class="row text-center">
+								<div class="col-md-4 mb-5 mb-md-0">
+								<div class="d-flex justify-content-center mb-4">
+									<img src="https://lh3.googleusercontent.com/a-/ALV-UjXDh-03wSS5541vK62G0js5NuZ0Iv_NF6huB-MjhcEgUFcw=w66-h66-p-rp-mo-ba5-br100"
+									class="rounded-circle shadow-1-strong" />
+								</div>
+								<h5 class="mb-3">Tania santos</h5>
+								<h6 class="text-primary mb-3">Visitante</h6>
+								<p class="px-xl-3">
+									<i class="fas fa-quote-left pe-2"></i>Que lugar maravilhoso, uma tranquilidade longe do que vivo, fomos de bike, pude apreciar Is alimentos vegano, sorvete, coxinha de jaca, pudemos nos refrescar nas águas límpidas que dava pra vê o fundo ....e os templos nunca había visto un desperto, pessoas das lojinhas bem atenciosas
+								</p>
+								<ul class="list-unstyled d-flex justify-content-center mb-0">
+									<li>
+									<i class="fas fa-star fa-sm text-warning"></i>
+									</li>
+									<li>
+									<i class="fas fa-star fa-sm text-warning"></i>
+									</li>
+									<li>
+									<i class="fas fa-star fa-sm text-warning"></i>
+									</li>
+									<li>
+									<i class="fas fa-star fa-sm text-warning"></i>
+									</li>
+									<li>
+									<i class="fas fa-star fa-sm text-warning"></i>
+									</li>
+								</ul>
+								</div>
+								<div class="col-md-4 mb-5 mb-md-0">
+								<div class="d-flex justify-content-center mb-4">
+									<img src="https://lh3.googleusercontent.com/a-/ALV-UjXO9v9WEu2ckBelZS90yCpmF-9JiSNJQ02eBtZWOUODpodq=w66-h66-p-rp-mo-ba6-br100"
+									class="rounded-circle shadow-1-strong"   />
+								</div>
+								<h5 class="mb-3">Alex Prosa</h5>
+								<h6 class="text-primary mb-3">Visitante</h6>
+								<p class="px-xl-3">
+									<i class="fas fa-quote-left pe-2"></i>Lugar maravilhoso de contemplação, reflexão, bem-estar, paz. Hare krishna, Hare Hare. Templos para meditação, trilhas, cachoeira, hospedagem, camping, lojinhas de conveniência, lanchonete, espaço para almoço, massagens ayurvédica, natureza exuberante, muitos pássaros de todas as espécies, cânticos, devoção e, acima de tudo, pessoas especiais que dão todo suporte aos visitantes. Entrada, R$ 10,00 por pessoa adultos. Crianças não sei se pagam.
+								</p>
+								<ul class="list-unstyled d-flex justify-content-center mb-0">
+									<li>
+									<i class="fas fa-star fa-sm text-warning"></i>
+									</li>
+									<li>
+									<i class="fas fa-star fa-sm text-warning"></i>
+									</li>
+									<li>
+									<i class="fas fa-star fa-sm text-warning"></i>
+									</li>
+									<li>
+									<i class="fas fa-star fa-sm text-warning"></i>
+									</li>
+									<li>
+									<i class="fas fa-star fa-sm text-warning"></i>
+									</li>
+								</ul>
+								</div>
+								<div class="col-md-4 mb-0">
+								<div class="d-flex justify-content-center mb-4">
+									<img src="https://lh3.googleusercontent.com/a-/ALV-UjUFaj0g7PMSqac5m3rLKwvKRSJKPDcVeAFu2TnXP1G4H52Z=w66-h66-p-rp-mo-ba2-br100"
+									class="rounded-circle shadow-1-strong" />
+								</div>
+								<h5 class="mb-3">Susana Uribarri</h5>
+								<h6 class="text-primary mb-3">Visitante</h6>
+								<p class="px-xl-3">
+									<i class="fas fa-quote-left pe-2"></i>Lugar encantador. Fizemos um retiro de Yoga e mantras. Experiência maravilhosa, pessoas gentis, atenção primorosa. Recomendo o kiosque da Eka, e o restaurante Confraria vegana do Jaya Devi.
+								</p>
+								<ul class="list-unstyled d-flex justify-content-center mb-0">
+									<li>
+									<i class="fas fa-star fa-sm text-warning"></i>
+									</li>
+									<li>
+									<i class="fas fa-star fa-sm text-warning"></i>
+									</li>
+									<li>
+									<i class="fas fa-star fa-sm text-warning"></i>
+									</li>
+									<li>
+									<i class="fas fa-star fa-sm text-warning"></i>
+									</li>
+									<li>
+									<i class="fas fa-star fa-sm text-warning"></i>
+									</li>
+								</ul>
+								</div>
+							</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		
+       
+        <!-- Portfolio-->
+        <div id="eventos" style="_margin-top: 50px; _margin-bottom: 50px; padding-top: 50px; padding-bottom: 50px; background-color: rgb(197, 174, 109);">
+            <div class="container-fluid p-0">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-md-10 col-xl-8 text-center">
+                    <h3 class="mb-4">Próximos eventos</h3>
+                    <p class="mb-4 pb-2 mb-md-5 pb-md-0">
+                        Acompanhe e participe!
+                    </p>
+                    </div>
+                </div>
+                <div class="row g-0">
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/eventos/evento1.jpg" title="Project Name">
+                            <img class="img-fluid" src="assets/img/eventos/evento1.jpg" alt="..." />
+
+                            <!-- <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Category</div>
+                                <div class="project-name">Project Name</div>
+                            </div> -->
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/eventos/evento2.png" title="Project Name">
+                            <img class="img-fluid" src="assets/img/eventos/evento2.png" alt="..." />
+                            <!-- <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Category</div>
+                                <div class="project-name">Project Name</div>
+                            </div> -->
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/evento4.jpeg" title="Project Name">
+                            <img class="img-fluid" src="assets/img/evento4.jpeg" alt="..." />
+                            <!-- <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Category</div>
+                                <div class="project-name">Project Name</div>
+                            </div> -->
+                        </a>
+                    </div>
+                  
+                </div>
+            </div>
+        </div>
+
+        <!-- Call to action-->
+        <section _class="page-section bg-dark text-white" s_tyle="margin-top: 50px;">
+            <div _class="container px-4 px-lg-5 text-center">
+               <img src="assets/img/doacao.png"  class="img-fluid">
+            </div>
+        </section>
+      
+        <!-- Footer-->
+         <!-- Footer Area -->
+		<footer id="footer" class="footer" style="margin-top: 0px;">
+			<!-- Footer Top -->
+			<div class="footer-top">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-3 col-md-6 col-12">
+							<div class="single-footer">
+								<h2>Sri Prabhupada</h2>
+                                <div class="text-center_" style="width: 100%;">
+                                <img src="assets/img/vedabase-logo.svg" style="width: 180px; margin-bottom: 10px;">
+
+                                </div>
+								<p>Sua Divina Graça A.C. Bhaktivedanta Swami Prabhupada Mestre Fundador da Sociedade Internacional para a Consciência de Krishna</p>
+								<!-- Social -->
+								<!-- <ul class="social">
+									<li><a href="https://www.facebook.com/FazendaNovaGokula"><i class="icofont-facebook"></i></a></li>
+									<li><a href="https://www.instagram.com/novagokula/"><i class="icofont-instagram"></i></a></li>
+									<li><a href="https://www.tiktok.com/@novagokula"><i class="icofont-tiktok"></i></a></li>
+									<li><a href="https://www.flickr.com/photos/novagokula"><i class="icofont-flickr"></i></a></li>
+									<li><a href="https://www.youtube.com/@FazendaNovaGokulaNG"><i class="icofont-flickr"></i></a></li>
+								</ul> -->
+								<!-- End Social -->
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-12">
+							<div class="single-footer">
+								<h2>Mídias sociais</h2>
+								<!-- <p> Estrada Jesus Antonio de Miranda Bairro: Riberão Grande Pindamonhangaba - São Paulo - Brasil</p> -->
+								<!-- Facebook -->
+                              <!-- Facebook -->
+                                <a class="btn btn-primary" style="background-color: #3b5998;" href="#!" role="button"
+                                ><i class="fab fa-facebook-f"></i
+                                ></a>
+
+
+                                <!-- Instagram -->
+                                <a class="btn btn-primary" style="background-color: #ac2bac;" href="#!" role="button"
+                                ><i class="fab fa-instagram"></i
+                                ></a>
+
+                                <!-- Youtube -->
+                                <a class="btn btn-primary" style="background-color: #ed302f;" href="#!" role="button"
+                                ><i class="fab fa-youtube"></i
+                                ></a>
+
+
+                                <!-- Whatsapp -->
+                                <a class="btn btn-primary" style="background-color: #25d366;" href="#!" role="button"
+                                ><i class="fab fa-tiktok"></i
+                                ></a>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-12">
+							<div class="single-footer">
+								<h2>Endereço</h2>
+								<p> Estrada Jesus Antonio de Miranda Bairro: <br/>Riberão Grande Pindamonhangaba <br/> São Paulo <br/> Brasil</p>
+								<!-- <ul class="time-sidual">
+									<li class="day">Monday - Fridayp <span>8.00-20.00</span></li>
+									<li class="day">Saturday <span>9.00-18.30</span></li>
+									<li class="day">Monday - Thusday <span>9.00-15.00</span></li>
+								</ul> -->
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-12">
+							<div class="single-footer">
+								<h2>Newsletter</h2>
+								<p>Inscreva-se em nossa newsletter e seja o primeiro a saber sobre todas as novidades da nossa comunidade Hare Krishna em Pindamonhangaba. Receba atualizações exclusivas diretamente na sua caixa de entrada."</p>
+								<form action="mail/mail.php" method="get" target="_blank" class="newsletter-inner">
+									<div class="input-group mb-3">
+                                        <input type="text" class="form-control" placeholder="Email" aria-label="Recipient's username" aria-describedby="button-addon2">
+                                        <button class="btn btn-outline-primary" type="button" id="button-addon2">Enviar</button>
+                                      </div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--/ End Footer Top -->
+			<!-- Copyright -->
+			<div class="copyright" style="margin-top: 50px;">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12 col-md-12 col-12">
+							<div class="copyright-content text-center">
+								<p>© Copyright 2023  |  Todos os direitos reservados novagokula.com.br </p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--/ End Copyright -->
+		</footer>
+		<!--/ End Footer Area -->
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- SimpleLightbox plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+        <script>
+            const imgs = ['assets/img/slide3.jpg']
+            var counter = 0;
+            var timer = setInterval(function() {
+                if( counter >= 2 ) {
+                    counter = 0
+                    // clearInterval( timer );
+                }
+                document.getElementsByClassName('masthead')[0].style.backgroundImage="url(" + imgs[counter]  + ")";
+                console.log( counter++ );
+                }, 4000);
+        </script>
+    </body>
+</html>
