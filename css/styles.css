@@ -10910,14 +10910,14 @@ hr.divider-light {
   #mainNav .navbar-nav .nav-item:last-child .nav-link {
     padding-right: 0;
   }
-  #mainNav.navbar-shrink {
+  /* #mainNav.navbar-shrink {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     /* rgb(211,151,88) */
-    background-color: rgba(211,151,88, .9);
+    /* background-color: rgba(211,151,88, .9) !important; */
 
-    /* background-color: #fff; */
+    background-color: #fff;
     /* background-color: #D39758; */
-  }
+  } */
   #mainNav.navbar-shrink .navbar-brand {
     color: #212529;
   }
