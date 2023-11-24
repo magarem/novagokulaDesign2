@@ -642,9 +642,9 @@ progress {
   margin-left: auto;
 }
 
-#mainNav.navbar-shrink #logo {
+/* #mainNav.navbar-shrink #logo {
   max-width: 70%;
-}
+} */
 /* @media (min-width: 370px) {
   #logo {
     max-width: 300px;

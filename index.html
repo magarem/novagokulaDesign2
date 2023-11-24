@@ -249,18 +249,18 @@ h3 {
                 /* background-color: #D39758; */
             }
 
-            #mainNav.navbar-shrink {
-                /* box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); */
-                /* rgb(211,151,88) */
-                background-color: rgba(211,151,88, 1) !important;
-                
-                /* background-color: #fff; */
-                /* background-color: #D39758; */
-            }
+                #mainNav.navbar-shrink {
+                    /* box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); */
+                    /* rgb(211,151,88) */
+                    background-color: rgba(211,151,88, 1) !important;
+                    
+                    /* background-color: #fff; */
+                    /* background-color: #D39758; */
+                }
 
-            .crop {
-                background: transparent url(assets/img/slide1.jpeg) center center no-repeat; 
-                background-size: cover;
+                .crop {
+                    background: transparent url(assets/img/slide1.jpeg) center center no-repeat; 
+                    background-size: cover;
                 }
 
 
@@ -269,10 +269,13 @@ h3 {
                 .navbar {
                     background-color: #d39758;
                 }
-
-                
-
                 @media only screen
+                    and (min-width: 800px){
+                        #mainNav.navbar-shrink #logo {
+                        max-width: 70%;
+                        }
+                    }
+                      @media only screen
                     and (min-width: 375px)
                     and (max-width: 667px)
                     and (-webkit-min-device-pixel-ratio: 2)
@@ -290,8 +293,8 @@ h3 {
                         padding-top: 20px;
                     }
                     #logo {
-                        padding-left: 10px;
-                        width: 275px;
+                        /* padding-left: 10px; */
+                        width: 100%;
                     }
                 
                 }
@@ -303,9 +306,9 @@ h3 {
        
         <nav id="mainNav" class="navbar navbar-expand-md navbar-dark fixed-top" >
             <div class="container"  _style="background-color: #d36858;">
-              <a class="navbar-brand" href="https://getbootstrap.com/docs/5.0/examples/carousel/#"><img  id="logo" src="assets/img/logo2.png" ></a>
+              <a class="navbar-brand" href=""><img  id="logo" src="assets/img/logo2.png" ></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span> Menu
               </button>
               <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav me-auto mb-2 mb-md-0" style="padding-left: 10px; ">
