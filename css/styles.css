@@ -643,7 +643,7 @@ progress {
 }
 
 #mainNav.navbar-shrink #logo {
-  max-width: 250px;
+  max-width: 70%;
 }
 /* @media (min-width: 370px) {
   #logo {
